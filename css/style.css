@@ -127,5 +127,10 @@ p {
 /**********Skills***************/
 
 .skills {
-  
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.skills img {
+  margin: 20px 15px;
 }
