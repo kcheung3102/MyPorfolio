@@ -104,3 +104,28 @@ p {
 }
 
 /*--------Landing--------*/
+.landing {
+  position: relative;
+  height: 100vh;
+}
+
+.landingWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.landingL {
+  margin-top: 4em;
+}
+
+#face {
+  border: 5px double #cacbca;
+  border-radius: 50%
+}
+
+/**********Skills***************/
+
+.skills {
+  
+}
