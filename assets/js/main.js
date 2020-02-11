@@ -1,3 +1,9 @@
+
+
+
+
+
+
 const navSlide = () => {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.nav-links');
@@ -19,7 +25,12 @@ const navSlide = () => {
 
 }
 
+
 navSlide();
+
+const scroll = new SmoothScroll('.nav-links a[href*="#"]', {
+	speed: 300
+});
 
 (function($) {
 
