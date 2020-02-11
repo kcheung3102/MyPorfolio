@@ -2925,6 +2925,15 @@ input, select, textarea {
 				height: 32vh;
 			}
 		}
+		/*Small Mobile*/
+		@media screen and (max-width:320px) {
+			.nav-links {
+				height: 20vh;
+				width: 60%;
+				background-color: black;
+			}
+
+		}
 
 		/*Large Mobile */
 		@media screen and (max-width:425px) {
