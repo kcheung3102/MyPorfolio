@@ -2764,6 +2764,10 @@ input, select, textarea {
 				width: calc(100% + 3.5em);
 			}
 
+			.features article .image:hover {
+				opacity: 0.5;
+			}
+
 				.features article .image img {
 					border-radius: 5px 5px 0 0;
 					width: 100%;
@@ -2872,11 +2876,24 @@ input, select, textarea {
 		.change .line3 {
 			transform: rotate(45deg) translate(-7px, -5px);
 		}
+		
+		@media screen and (max-width:1182px)  {
+			.nav-links {
+				width: 60%;
+			}
+		}
 
 		@media screen and (max-width:1066px)  {
 			.nav-links {
 				width: 60%;
 			}
+		}
+
+		@media screen and (max-width:794px) {
+			.nav-links {
+				width: 80%;
+			}
+
 		}
 
 		@media screen and (max-width:768px) {
@@ -2903,6 +2920,12 @@ input, select, textarea {
 			.burger {
 				display: block;
 				cursor: pointer;
+			}
+		}
+
+		@media screen and (max-width: 736px) {
+			.nav-links{
+				height: 28vh;
 			}
 		}
 
@@ -2935,7 +2958,6 @@ input, select, textarea {
 			.nav-links {
 				height: 20vh;
 				width: 60%;
-				background-color: black;
 			}
 
 		}
@@ -3640,6 +3662,7 @@ input, select, textarea {
 
 				#footer .inner .copyright li a {
 					color: inherit;
+					cursor: pointer;
 				}
 
 	@media screen and (max-width: 1280px) {
