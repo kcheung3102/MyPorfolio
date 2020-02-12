@@ -28,8 +28,8 @@ const navSlide = () => {
 
 navSlide();
 
-const scroll = new SmoothScroll('.nav-links a[href*="#"]', {
-	speed: 300
+const scroll = new SmoothScroll(' a[href*="#"]', {
+	speed: 400
 });
 
 (function($) {
