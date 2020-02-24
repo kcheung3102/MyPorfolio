@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="animate.min.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -59,7 +60,7 @@
 									<div class="col"></div>
 									<a class="image"><img src="images/tech-image.png" alt="computer"></a>
 								<div class="content">
-										<h2 class='major'> Who am i?</h2>
+										<h2 class='major wow FadeInLeft'> Who am i?</h2>
 										<p>I am progress driven developer that loves to expand my knowledge in Web Development and creating new and challenging projects.</p>
 								</div>
 							</section>
@@ -68,12 +69,12 @@
 					
 
 						<!-- Projects -->
-							<section id="projects" class="wrapper alt style1">
+							<section id="projects" class="wrapper alt style1 ">
 								<div class="inner">
 									<h2 class="major">Projects</h2>
 									<p>View my latest projects</p>
 									<section class="features">
-										<article>
+										<article class='wow slideInLeft'>
 											<a href="https://weather-application-kcheung.netlify.com/" class="image" target="_blank"><img src="images/Weather-Scanner-Project.jpg" alt="weather-app" /></a>
 											<h3 class="major">Weather Application</h3>
 											<p>Need to know the current weather? This weather application lets you view the current weather depending on what city and country you search.</p>
@@ -81,20 +82,20 @@
 											<p>React | CSS3 | Bootstrap 4 | Netlify</p>
 											<a href="https://github.com/kcheung3102/Weather-Scanner" class="special" target="_blank">View Code</a>
 											<a href="https://weather-application-kcheung.netlify.com/" class="special"target="_blank">Demo</a>
-										</article>
-										<article>
+										</article >
+										<article class='wow slideInRight'>
 											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
 											<h3 class="major">Nisl placerat</h3>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
-										<article>
+										<article class='wow slideInLeft'>
 											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
 											<h3 class="major">Ante fermentum</h3>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
-										<article>
+										<article class='wow slideInRight'>
 											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
 											<h3 class="major">Fusce consequat</h3>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
@@ -110,7 +111,31 @@
 										<a class="image"><img src="images/tech-skills.png" alt="tech-skills"></a>
 										<div class="content">
 											<h2 class="major">Technological Skills</h2>
-											<ul class='tech-skills-list'>
+											
+											<div class='row'>
+												<div class='column'>
+												<div class='card-box'></div>
+												</div>
+											</div>
+											<div class='row 2'>
+												<div class='column'>
+													<div class='tech-skill-block'>
+														React
+													</div>
+												</div>
+												<div class='column'>
+													<div class='tech-skill-block'>
+														
+													</div>
+												</div>
+												<div class='column'>
+													<div class='tech-skill-block'>
+														Javascript
+													</div>
+												</div>
+											</div>
+								
+											<!-- <ul class='tech-skills-list'>
 												<li>HTML5</li>
 												<li>CSS3</li>
 												<li>Javascript</li>
@@ -118,7 +143,7 @@
 												<li>HTML5</li>
 												<li>HTML5</li>
 												<li>HTML5</li>
-											</ul>
+											</ul> -->
 										</div>
 									</div>
 								</section>
@@ -153,6 +178,10 @@
 			</div>
 
 		<!-- Scripts -->
+		<script src="js/wow.min.js"></script>
+		<script>
+		new WOW().init();
+		</script>
 			<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>

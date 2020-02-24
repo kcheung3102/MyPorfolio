@@ -2761,6 +2761,7 @@ input, select, textarea {
 			top: 0;
 			position: fixed;
 			width: 100%;
+			z-index: 3;
 
 		}
 
@@ -3346,13 +3347,7 @@ input, select, textarea {
 				-ms-flex: 2;
 			}
 
-			.wrapper.spotlight:nth-child(2n - 1) .inner {
-				-moz-flex-direction: row-reverse;
-				-webkit-flex-direction: row-reverse;
-				-ms-flex-direction: row-reverse;
-				flex-direction: row-reverse;
-				text-align: right;
-			}
+		
 
 			.wrapper.spotlight:nth-child(2n - 1) .image {
 				margin: 0 0 2em 3em;
@@ -3686,3 +3681,17 @@ input, select, textarea {
 		}
 
 	}
+
+.card-box {
+	width:220px;
+	height:320px;
+	background: rgba(0, 0, 0 ,0.5 );
+	color: #ffffff;
+	top: 50%;
+	bottom:50%;
+	position: relative;
+	transform: translate(-50%, -50%);
+}
+
+
+  
