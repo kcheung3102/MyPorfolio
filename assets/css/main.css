@@ -3682,16 +3682,69 @@ input, select, textarea {
 
 	}
 
-.card-box {
-	width:220px;
-	height:320px;
-	background: rgba(0, 0, 0 ,0.5 );
-	color: #ffffff;
-	top: 50%;
-	bottom:50%;
-	position: relative;
-	transform: translate(-50%, -50%);
-}
+	 /* Tech Card */
+	.tech-container {
+		position: relative;
+		display: flex;
+		justify-content: space-around; 
+		flex-wrap: wrap;
+		padding-right: 40px;
+		width:1000px;
+	  }
+	  
+	  .tech-content ul li {
+		list-style-type: none;
+		margin-top: 5px;
+		padding-right: 30px;
+	  }
+	  
+	  .tech-container .card {
+		width: 280px;
+		margin: 20px;
+		padding: 15px 20px;
+		background: #4c5c96;
+		border-radius: 40px;
+		box-shadow: -6px -6px 20px rgba(230, 230, 230,0.5), 6px 6px 20px rgba(47, 53, 66,1.0);
+	  }
+	  
+	  .tech-container .card:hover {
+		box-shadow: inset -6px -6px 10px rgba(255,255,255,0.1), 
+		  
+		  inset 6px 6px 20px rgba(47, 53, 66,0.5);
+	  }
+	  
+	  .tech-container .card .img-container {
+		 position:relative;
+		text-align: center;
+	  }
+	  
+	  .tech-container .card .img-container img {
+		max-width: 200px;
+		max-height: 150px;
+	  }
+	  
+	  .tech-container .card .tech-content {
+		position: relative;
+		margin-top: 10px;
+		text-align: center;
+	  }
+	  
+	  .tech-container .card .tech-content h2 {
+		color: whitesmoke;
+		font-size: 1em;
+		letter-spacing: 2px;
+	  }
+	  
+	  .tech-container .card .tech-container ul li {
+		color:whitesmoke;
+	  }
+	  
 
+	  #tech-skills-title {
+		  text-align: center;
+		  font-size: 1.5rem;
+		  font: weight 800;
+	  }
+	  
 
   
