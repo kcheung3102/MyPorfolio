@@ -13,17 +13,15 @@
 	
 	<!-- Header -->
 	<header id="header" class="alt">
-		<nav class='navbar'>
+		<nav class='navbar class="animated 2s fadeInLeft delay-1s"'>
 			<div class='logo'>
 				<i class='fab fa-kickstarter-k fa-2x'></i>
 			</div>
-			<ul class=nav-links>
+			<ul class='nav-links'>
 				<a href='#header'><li>Home</li></a>
 				<a href='#whoami'><li>About me</li></a>
 				<a href='#projects'><li>Projects</li></a>
 				<a href='#footer'><li>Connect with me</li></a>
-				<a href="https://github.com/kcheung3102"><li><i class="fab fa-github"></i></li></a>
-				<a href=""><li><i class="fab fa-linkedin"></i></li></a>
 
 			</ul>
 			<div class='burger'>
@@ -61,7 +59,7 @@
 								<a class="image"><img src="images/tech-image.png" alt="computer"></a>
 							<div class="content">
 									<h2 class='major'> Who am i?</h2>
-									<p>I am progress driven developer that loves to expand my knowledge in Web Development and creating new and challenging projects.</p>
+									<p>I am progress driven developer with a passion for learning new technology. I continue to expand my knowledge in web development through creating new and challenging projects.</p>
 									<h2 class='major'>Quick Learner</h2>
 									<p>I am confident in my ability learn something new and put it into production. Able to adapt and thrive in fast-paced environments.</p>
 							</div>
@@ -76,28 +74,27 @@
 									<h2 class="major">Projects</h2>
 									<p>View my latest projects</p>
 									<section class="features">
-										<article class='wow slideInLeft'>
-											<a href="https://weather-application-kcheung.netlify.com/" class="image" target="_blank"><img src="images/Weather-Scanner-Project.jpg" alt="weather-app" /></a>
+										<article>
+											<a href="weatherscanner.html" class="image" target="_blank"><img src="images/Weather-Scanner-Project.png" alt="weather-app" /></a>
 											<h3 class="major">Weather Application</h3>
 											<p>Need to know the current weather? This weather application lets you view the current weather depending on what city and country you search.</p>
-											<h3 class="major">Built With</h3>
-											<p>React | CSS3 | Bootstrap 4 | Netlify</p>
 											<a href="https://github.com/kcheung3102/Weather-Scanner" class="special" target="_blank">View Code</a>
-											<a href="https://weather-application-kcheung.netlify.com/" class="special"target="_blank">Demo</a>
+												<a href="https://weather-application-kcheung.netlify.com/" class="special"target="_blank">Demo</a>
 										</article >
-										<article class='wow slideInRight'>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+										<article>
+											<a href="cinemacloud.html" class="image"><img src="images/pic05.jpg" alt="" /></a>
+											<h3 class="major">Cinema Cloud</h3>
+											<p>Search for your favorite movies and shows</p>
+											<a href="#" class="special">View Code</a>
+											<a href="#" class="special">Demo</a>
 										</article>
-										<article class='wow slideInLeft'>
+										<article >
 											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
 											<h3 class="major">Ante fermentum</h3>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
 											<a href="#" class="special">Learn more</a>
 										</article>
-										<article class='wow slideInRight'>
+										<article>
 											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
 											<h3 class="major">Fusce consequat</h3>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
@@ -109,9 +106,10 @@
 
 								<!--Tech Skills -->
 								<section id="tech-skills" class="wrapper spotlight style2">
-									<div class="inner">
+									<div class='inner'>
 										<div class="content">
 											<h2 id='tech-skills-title'>Technological Skills</h2>
+										
 											<div class='tech-container'>
 												<div class='card'>
 												  <div class='img-container'>
@@ -156,9 +154,8 @@
 															<li>Github</li>
 														  </ul>
 														</div>
-										
+													</div>
 										</div>
-									</div>
 								</section>
 
 					</section>
@@ -181,8 +178,12 @@
 								<li class="icon solid fa-envelope"><a href="mailto:kcheung3102@gmail.com" target="_blank">kcheung3102@gmail.com</a></li>
 								
 							</ul>
+							<ul class="icons">
+								<li><a href='#'><i class="fab fa-linkedin"></i></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							</ul>
 							<ul class="copyright">
-								<li>&copy; Kevin Cheung</li> <li><a>Github</a></li> <li><a href="">Linkin</a></li>
+								<li>&copy; Kevin Cheung</li>
 							</ul>
 							
 						</div>
@@ -191,10 +192,6 @@
 			</div>
 
 		<!-- Scripts -->
-		<script src="js/wow.min.js"></script>
-		<script>
-		new WOW().init();
-		</script>
 			<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -202,6 +199,10 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="js/wow.min.js"></script>
+			<script>
+			new WOW().init();
+			</script>
 
 	</body>
 </html>
