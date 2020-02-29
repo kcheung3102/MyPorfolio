@@ -6,7 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="animate.min.css">
+		<link rel="stylesheet" href="node_modules/animate.css/animate.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -14,14 +14,14 @@
 	<!-- Header -->
 	<header id="header" class="alt">
 		<nav class='navbar class="animated 2s fadeInLeft delay-1s"'>
-			<div class='logo'>
+			<div class='logo animated 3s fadeInLeft'>
 				<i class='fab fa-kickstarter-k fa-2x'></i>
 			</div>
 			<ul class='nav-links'>
-				<a href='#header'><li>Home</li></a>
-				<a href='#whoami'><li>About me</li></a>
-				<a href='#projects'><li>Projects</li></a>
-				<a href='#footer'><li>Connect with me</li></a>
+				<a href='#header'><li class='animated fadeInLeft delay-1s'>Home</li></a>
+				<a href='#whoami'><li  class='animated fadeInLeft delay-1s'>About me</li></a>
+				<a href='#projects'><li class='animated fadeInLeft delay-1s'>Projects</li></a>
+				<a href='#footer'><li  class='animated fadeInLeft delay-1s'>Connect with me</li></a>
 
 			</ul>
 			<div class='burger'>
@@ -54,7 +54,7 @@
 
 						<!-- Who Am I -->
 						<section id="whoami" class="wrapper spotlight style1">
-							<div class="inner">
+							<div class="inner wow fadeInUp">
 								<a class="image"><img src="images/tech-image.png" alt="computer"></a>
 							<div class="content">
 										<h2 class='major'> Who am i?</h2>
@@ -74,28 +74,28 @@
 						<!-- Projects -->
 							<section id="projects" class="wrapper alt style1 ">
 								<div class="inner">
-									<h2 class="major">Projects</h2>
-									<p>View my latest projects</p>
+									<h2 class="major wow fadeIn">Projects</h2>
+									<p class='wow fadeIn'>View my latest projects</p>
 									<section class="features">
-										<article>
+										<article class='wow slideInLeft image-shadow' data-wow-delay='0.3s'>
 											<a href="weatherscanner.html" class="image" target="_blank"><img src="images/Weather-Scanner-Project.png" alt="weather-app" /></a>
 											<h3 class="major">Weather Application</h3>
 											<p>Need to know the current weather? This weather application lets you view the current weather depending on what city and country you search.</p>
 											<a href="weatherscanner.html" class="special">Learn more</a>
 										</article >
-										<article>
+										<article class='wow slideInRight image-shadow' data-wow-delay='0.4s'>
 											<a href="cinemacloud.html" class="image"><img src="images/cinema-cloud-img.png" alt="" /></a>
 											<h3 class="major">Cinema Cloud</h3>
 											<p>Search for your favorite movies and shows</p>
 											<a href="cinemacloud.html" class="special">Learn more</a>
 										</article>
-										<article >
+										<article  class='wow slideInLeft image-shadow' data-wow-delay='0.5s' >
 											<a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a>
-											<h3 class="major">Ante fermentum</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+											<h3 class="major">KevsList</h3>
+											<p>A job application posting </p>
+											<a href="kevslist.html" class="special">Learn more</a>
 										</article>
-										<article>
+										<article class='wow slideInRight image-shadow' data-wow-delay="0.6s">
 											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
 											<h3 class="major">Fusce consequat</h3>
 											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
@@ -109,10 +109,10 @@
 								<section id="tech-skills" class="wrapper spotlight style2">
 									<div class='inner'>
 										<div class="content">
-											<h2 id='tech-skills-title'>Technological Skills</h2>
+											<h2 id='tech-skills-title' class='wow fadeInLeft' data-wow-delay="0.2s">Technological Skills</h2>
 										
 											<div class='tech-container'>
-												<div class='card'>
+												<div class='card wow fadeInLeft' data-wow-delay="0.2s">
 												  <div class='img-container'>
 													<img src='images/front-end.png'
 											  />
@@ -128,12 +128,12 @@
 														</ul>
 												  </div>
 												</div>
-												<div class='card'>
+												<div class='card wow fadeInUp' data-wow-delay="0.3s">
 													<div class='img-container'>
 													  <img src='images/backend.png'
 												/>
 													 </div>
-													<div class='tech-content'>
+													<div class='tech-content' >
 													  <h2>Back-End/Server</h2>
 														<ul class='tech-list'>
 															<li>Java</li>
@@ -142,7 +142,7 @@
 														  </ul>
 													</div>
 												  </div>
-												  <div class='card'>
+												  <div class='card wow fadeInRight' data-wow-delay="0.4s">
 													<div class='img-container'>
 													  <img src='images/database.png'/>
 													 </div>
@@ -163,10 +163,7 @@
 
 				<!-- Footer -->
 					<section id="footer">
-						<div class="inner">
-							<div>
-
-							</div>
+						<div class="inner wow fadeInLeft"  data-wow-delay="0.3s">
 							<ul class="contact">
 								<h1 class='major'>Lets Build Something Together</h1>
 								<p>Feel free to reach out to me if you're looking for a developer,<br />have a question, or just want to connect.</p>
@@ -180,8 +177,8 @@
 								
 							</ul>
 							<ul class="icons">
-								<li><a href='#'><i class="fab fa-linkedin"></i></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href='www.linkedin.com/in/kevin-cheung-3102'><i class="fab fa-linkedin"></i></a></li>
+								<li><a href="https://github.com/kcheung3102" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Kevin Cheung</li>
@@ -193,6 +190,8 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="node_modules/wow.js/dist/wow.min.js"></script>
+			<script>new WOW().init();</script>
 			<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -200,10 +199,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="js/wow.min.js"></script>
-			<script>
-			new WOW().init();
-			</script>
-
+			
 	</body>
 </html>
