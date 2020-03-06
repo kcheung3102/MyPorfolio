@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
-
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
 
 html, body, div, span, applet, object,
@@ -3741,7 +3741,6 @@ input, select, textarea {
 	  
 
 	  #tech-skills-title {
-		  text-align: center;
 		  font-size: 1.5rem;
 		  font: weight 800;
 	  }
@@ -3760,6 +3759,10 @@ input, select, textarea {
 		  transform: scale(1.1);
 	  }
 
+	  .font-title {
+		font-family: 'Pacifico', cursive;
+		font-size: 1rem;
+	  }
 	
 
 	  
