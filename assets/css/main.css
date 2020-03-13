@@ -2856,6 +2856,10 @@ input, select, textarea {
 				display: block;
 				cursor: pointer;
 			}
+			.image-responsive {
+				height: 25vh;
+				width: 50vh;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2887,6 +2891,11 @@ input, select, textarea {
 			.nav-links {
 				height: 32vh;
 			}
+
+			.image-responsive {
+				height: 25vh;
+				width: 40vh;
+			}
 		}
 		/*Small Mobile*/
 		@media screen and (max-width:320px) {
@@ -2901,6 +2910,10 @@ input, select, textarea {
 		@media screen and (max-width:425px) {
 			.nav-links {
 				height: 30vh;
+			}
+			.image-responsive {
+				height: 20vh;
+				width: 40vh;
 			}
 		}
 
