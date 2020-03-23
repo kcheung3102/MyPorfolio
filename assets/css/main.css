@@ -3699,12 +3699,13 @@ input, select, textarea {
 	.tech-container {
 		position: relative;
 		display: flex;
-		justify-content: space-around; 
+		justify-content: space-between; 
 		flex-wrap: wrap;
 		padding-right: 40px;
 		width:1000px;
 	  }
 	  
+
 	  .tech-content ul li {
 		list-style-type: none;
 		margin-top: 5px;
@@ -3728,7 +3729,7 @@ input, select, textarea {
 	  
 	  .tech-container .card .img-container {
 		 position:relative;
-		text-align: center;
+		 text-align: center;
 	  }
 	  
 	  .tech-container .card .img-container img {
@@ -3752,13 +3753,21 @@ input, select, textarea {
 		color:whitesmoke;
 	  }
 	  
-
 	  #tech-skills-title {
 		  text-align: center;
 		  font-size: 1.5rem;
 		  font: weight 800;
 	  }
 	  
+
+	  @media screen and (max-width: 1023px) {
+		  .tech-container {
+			  width: 40vw;
+			  
+		  }
+	  }
+
+		  
 	  .image-shadow {
 		-moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.5);
 		-webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 1.5);
