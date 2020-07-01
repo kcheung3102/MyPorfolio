@@ -3715,7 +3715,7 @@ input, select, textarea {
 	  
 	  .tech-container .card {
 		width: 280px;
-		margin: 20px;
+		margin-bottom: 20px;
 		padding: 15px 20px;
 		background: #4c5c96;
 		border-radius: 5px;
