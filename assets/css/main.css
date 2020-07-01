@@ -3702,6 +3702,7 @@ input, select, textarea {
 		justify-content: space-between; 
 		flex-wrap: wrap;
 		padding-right: 40px;
+		margin: auto;
 		width:1000px;
 	  }
 	  
